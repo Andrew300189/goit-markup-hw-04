@@ -262,6 +262,43 @@ span {
   margin: 0;
   padding: 0;
 }
+.icons {
+  width: 64px;
+  height: 64px;
+  margin: 24px 100px;
+}
+.text-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-cloud);
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+.section-customers {
+  padding-top: 130px;
+}
+.customers-icons-list {
+  display: flex;
+  justify-content: center;
+  padding: 0px;
+  gap: 24px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 120px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.customer-icon-item {
+  width: 104px;
+  height: 56px;
+  margin: 16px 32px;
+  text-align: center;
+}
+.customer-icon {
+  border: 1px solid var(--color-slate);
+  border-radius: 4px;
+}
 .section-list-of-texts {
   padding-top: 120px;
   padding-bottom: 0;
@@ -354,8 +391,9 @@ span {
   background-color: var(--color-white);
   border-radius: 0px 0px 4px 4px;
   margin-left: 0;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
-
 .position-names-paddings {
   padding: 32px 16px;
   text-align: center;
@@ -458,4 +496,53 @@ footer {
   letter-spacing: 0.03em;
   color: var(--color-cloud);
   margin-bottom: 16px;
+}
+.footer-text-and-logo {
+  margin-right: 0;
+  display: flex;
+}
+.social-list-footer {
+  padding: 0;
+  margin: 0;
+}
+.social-icons-footer {
+  padding: 0;
+  margin-left: 120px;
+}
+.social-list-footer {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+  padding-left: 0;
+  margin-left: 0;
+  margin-top: 16px;
+}
+.social-item-footer {
+  width: 40px;
+  height: 40px;
+}
+.social-link-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: var(--color-grey);
+}
+.social-link-footer:is(:hover, :focus) {
+  background-color: var(--color-green);
+  color: var(--color-cloud);
+}
+
+.social-media-footer {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: var(--color-white);
+  margin: 0;
+  padding-right: 120px;
 }
