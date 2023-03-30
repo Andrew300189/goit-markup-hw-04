@@ -314,6 +314,8 @@ span {
   color: #404bbf;
 }
 .customer-icon-item {
+  width: 104px;
+  height: 56px;
   fill: currentColor;
 }
 .section-list-of-texts {
